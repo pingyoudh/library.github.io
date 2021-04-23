@@ -3091,16 +3091,28 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
 }
+.site-brand-container {
+  background: url("/library.github.io/uploads/images/head.jpg");
+  background-position: 70% 20%;
+  background-size: cover;
+  opacity: 0.9;
+}
 .main-inner {
   opacity: 0.9;
-}
-.sidebar {
-  opacity: 0.9;
-}
-.header-inner {
-  opacity: 0.9;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 .footer-inner {
   color: #000;
   opacity: 0.9;
+}
+.post {
+  margin-top: 10px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
