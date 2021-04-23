@@ -369,11 +369,11 @@
 NexT.utils.loadComments('.gitalk-container', () => {
   NexT.utils.getScript('https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js', () => {
     var gitalk = new Gitalk({
-      clientID    : '19c9b28aa9c633b83809# GitHub Application Client ID',
+      clientID    : '19c9b28aa9c633b83809',
       clientSecret: 'a4cdc06c9de3c60934ac058dfaee2a9d915e4410',
-      repo        : 'blog_talk# Repository name to store issues',
-      owner       : 'pingyoudh# GitHub repo owner',
-      admin       : [''],
+      repo        : 'blog_talk',
+      owner       : 'pingyoudh',
+      admin       : ['pingyoudh# GitHub repo owner and collaborators, only these guys can initialize gitHub issues'],
       id          : '9fc31be92ac7e49c5df2eaa530d4d087',
       proxy       : 'https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token',
         language: 'zh-CN',
